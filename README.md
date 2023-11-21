@@ -2,7 +2,7 @@
 An mpv script that allows switching between playing one or two audio tracks simultaneously upon file load or with a hotkey.
 
 Note that the file must have exactly two audio tracks for this script to activate, otherwise the file will be ignored.
-This script overrides user defiend `lavfi-complex` behavior.
+This script overrides user defined `lavfi-complex` behavior.
 
 ## Add a keybind
 To set a keybind, add `{key} script-message switch-both-audio` line to your `input.conf` e.g:
