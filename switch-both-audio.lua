@@ -12,6 +12,9 @@ To set a keybind, add `{key} script-message switch-both-audio` line to your `inp
 To switch the default state to "on" upon opening a file, create `switch_both_audio.conf` file in `portable_config/script-opts` directory
 and add `enabled_on_start=yes` line to it.
 
+
+Repo: https://github.com/70sh1/mpv-switch-both-audio
+
 --]]
 
 require 'mp.options'
